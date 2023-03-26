@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		E9A9E9DE29CFF29100906C64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A9E9DD29CFF29100906C64 /* AppDelegate.swift */; };
 		E9A9E9E029CFF29100906C64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A9E9DF29CFF29100906C64 /* SceneDelegate.swift */; };
-		E9A9E9E229CFF29100906C64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A9E9E129CFF29100906C64 /* ViewController.swift */; };
 		E9A9E9E529CFF29100906C64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9A9E9E329CFF29100906C64 /* Main.storyboard */; };
-		E9A9E9E729CFF29300906C64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9A9E9E629CFF29300906C64 /* Assets.xcassets */; };
 		E9A9E9EA29CFF29300906C64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9A9E9E829CFF29300906C64 /* LaunchScreen.storyboard */; };
+		E9A9E9F229CFF2AB00906C64 /* LoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A9E9F129CFF2AB00906C64 /* LoadViewController.swift */; };
+		E9A9E9F429CFF2BF00906C64 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A9E9F329CFF2BF00906C64 /* ImageViewController.swift */; };
+		E9A9E9FA29CFFEE600906C64 /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = E9A9E9F929CFFEE600906C64 /* MyParticle.sks */; };
+		E9A9EA0129D015FD00906C64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9A9EA0029D015FD00906C64 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E9A9E9DA29CFF29100906C64 /* setViewDidLoad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = setViewDidLoad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9A9E9DD29CFF29100906C64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9A9E9DF29CFF29100906C64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E9A9E9E129CFF29100906C64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E9A9E9E429CFF29100906C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E9A9E9E629CFF29300906C64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9A9E9E929CFF29300906C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9A9E9EB29CFF29300906C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9A9E9F129CFF2AB00906C64 /* LoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadViewController.swift; sourceTree = "<group>"; };
+		E9A9E9F329CFF2BF00906C64 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		E9A9E9F929CFFEE600906C64 /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		E9A9EA0029D015FD00906C64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +62,11 @@
 			children = (
 				E9A9E9DD29CFF29100906C64 /* AppDelegate.swift */,
 				E9A9E9DF29CFF29100906C64 /* SceneDelegate.swift */,
-				E9A9E9E129CFF29100906C64 /* ViewController.swift */,
+				E9A9E9F329CFF2BF00906C64 /* ImageViewController.swift */,
+				E9A9E9F129CFF2AB00906C64 /* LoadViewController.swift */,
+				E9A9E9F929CFFEE600906C64 /* MyParticle.sks */,
+				E9A9EA0029D015FD00906C64 /* Assets.xcassets */,
 				E9A9E9E329CFF29100906C64 /* Main.storyboard */,
-				E9A9E9E629CFF29300906C64 /* Assets.xcassets */,
 				E9A9E9E829CFF29300906C64 /* LaunchScreen.storyboard */,
 				E9A9E9EB29CFF29300906C64 /* Info.plist */,
 			);
@@ -126,8 +132,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9A9E9EA29CFF29300906C64 /* LaunchScreen.storyboard in Resources */,
-				E9A9E9E729CFF29300906C64 /* Assets.xcassets in Resources */,
 				E9A9E9E529CFF29100906C64 /* Main.storyboard in Resources */,
+				E9A9EA0129D015FD00906C64 /* Assets.xcassets in Resources */,
+				E9A9E9FA29CFFEE600906C64 /* MyParticle.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9A9E9E229CFF29100906C64 /* ViewController.swift in Sources */,
+				E9A9E9F229CFF2AB00906C64 /* LoadViewController.swift in Sources */,
 				E9A9E9DE29CFF29100906C64 /* AppDelegate.swift in Sources */,
+				E9A9E9F429CFF2BF00906C64 /* ImageViewController.swift in Sources */,
 				E9A9E9E029CFF29100906C64 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HMDHM6A3PV;
@@ -313,6 +322,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HMDHM6A3PV;
